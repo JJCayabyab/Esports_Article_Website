@@ -1,0 +1,63 @@
+.navContainer {
+    color: white;
+    font-family: "Oswald", sans-serif ;
+    display: flex;
+    align-items: center;
+    background-color: #343333;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px 50px;
+    position: sticky;
+    top: 0; 
+    z-index: 3; 
+    margin-bottom: 0px;
+}
+
+.navContainer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.logoNameLinkContainer{
+text-decoration: none;
+}
+.logoName1{
+    color: #F12847;
+    font-size: 25px;
+    font-weight:500;
+}
+
+.logoName2{
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+.logoNameContainer {
+    margin-left: 20px;
+    line-height: 0.2;
+}
+
+
+.sectionsContainer{
+    display: flex;
+    margin-left: 90px;
+    gap: 50px;
+    font-size: 15px;
+}
+
+.sectionName {
+    text-decoration: none;
+    color: white;
+
+}
+.sectionName:hover{
+    color:#F12847;
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,123 @@
+.fullArticleContainer {
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+}
+
+.fullArticleContainer h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+  line-height: 1.3;
+}
+
+.headlineContainer {
+  margin-top: 20px;
+}
+
+.headlineContainer h1,
+.headlineContainer h2,
+.headlineContainer h3 {
+  margin: 5px;
+}
+
+.headlineContainer h4 {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  color: #dedede;
+}
+
+.headlineContainer h3 {
+  font-family: "Roboto", system-ui;
+  background-color: #F12847;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 20px;
+
+}
+
+.fullArticleContainer p {
+  font-family: "Roboto", system-ui;
+  font-size: 20px !important;
+  font-weight: 300;
+}
+
+#relatedText {
+  font-family: "Oswald", sans-serif;
+  color: #F12847;
+  font-size: 30px !important;
+  font-weight: 450 !important;
+}
+
+.articleImage{
+  width: 100%;
+}
+
+/*related card styles*/
+.imageStyle{
+  border-radius: 5px;
+}
+
+.smallCardContainer {
+  background-color: #33333300 !important;
+  transition: transform 0.2s ease-in-out !important;
+  border-color: none !;
+  padding: 0px !important;
+  margin-right: 15px !important;
+  padding-bottom: 0xp !important;
+  margin-bottom: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  box-shadow: none !important;
+
+}
+
+.smallCardContainer:hover .smallHeader {
+  color: rgb(203, 203, 203) !important;
+}
+
+.smallHeader {
+  color: white !important;
+  font-family: 'Oswald', serif !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+}
+
+.smallMeta {
+  margin-top: 0px !important;
+  color: #d3d3d3 !important;
+  font-family: "Roboto", system-ui !important;
+  font-size: 13px !important;
+  margin-bottom: 10px;
+
+}
+
+.smallShortDesc {
+  color: #d3d3d3 !important;
+  font-family: "Roboto", system-ui !important;
+  font-size: 15px !important;
+}
+
+.linkContainer {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+
+.grid {
+margin: 0px !important;
+}
+
+
+.relatedContainer{
+  margin-left: 5px !important;
+}
+
+.relatedLine{ 
+  border: 0;
+  height: 1px;
+  background-color: #606060; 
+}

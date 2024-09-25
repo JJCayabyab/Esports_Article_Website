@@ -1,0 +1,72 @@
+
+.latestStoriesContainer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.latestStoriesContainer h1 {
+    font-family: 'Oswald', serif;
+    color: #F12847;
+    font-weight: 450;
+    font-size: 35px;
+    
+}
+
+
+/*start of card styles*/
+.imageStyle{
+    border-radius: 5px;
+}
+
+.allCardsContainer{
+    display: flex !important;
+    justify-content: center !important;
+}
+.smallCardContainer {
+    background-color: #33333300 !important;
+    transition: transform 0.2s ease-in-out !important;
+    border-color: none !;
+    width: 100% !important;
+    padding: 0px !important;
+    margin-right: 15px !important;
+    padding-bottom: 0xp !important;
+    margin-bottom: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    box-shadow: none !important;
+   
+}
+
+.smallCardContainer:hover .smallHeader{
+    color: rgb(203, 203, 203) !important;
+}
+
+.smallHeader {
+    color: white !important;
+    font-family: 'Oswald', serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.smallMeta {
+    margin-top: 0px !important;
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 15px !important;
+    margin-bottom: 10px;
+
+}
+
+.smallShortDesc {
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 16px !important;
+}
+
+.linkContainer {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+

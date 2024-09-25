@@ -1,0 +1,100 @@
+.footerWrapper {
+    background-color: #343333;
+    padding: 2px 0px;
+    margin-top: 40px;
+}
+
+.footerWrapper h6 {
+    color: white;
+    font-family: "Roboto", system-ui;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footerContainer {
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.copyRight {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.logo {
+    width: 70px;
+}
+
+.imageContainer,
+.sourceContainer,
+.contactsContainer {
+    padding: 0 20px;
+}
+
+.imageContainer {
+    border-right: 1px solid #ababab;
+}
+
+.sourceContainer {
+    border-right: 1px solid #ababab;
+    text-align: center;
+}
+
+.sourceContainer,
+.contactsContainer {
+    color: white;
+    font-family: "Roboto", system-ui;
+
+}
+
+.linkContainer {
+    gap: 10px
+}
+
+.linkContainer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 15px;
+    position: relative;
+}
+
+.linkContainer a:hover {
+    color: #F12847;
+
+}
+
+
+.linkContainer a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #FFFFFF;
+    transform: translateY(-50%);
+}
+
+.contactsContainer {
+
+    text-align: center;
+}
+
+.contactsContainer h5 {
+    font-weight: normal;
+    line-height: 0;
+}
+
+.sourceContainer h1 {
+    top: 0;
+
+}

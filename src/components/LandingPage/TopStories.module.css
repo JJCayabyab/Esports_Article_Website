@@ -1,0 +1,129 @@
+.topStoriesContainer h1 {
+    font-family: 'Oswald', serif;
+    color: #F12847;
+    font-weight: 450;
+    font-size: 35px;
+
+}
+
+.imageStyle{
+    border-radius: 5px;
+}
+.topStoriesContainer {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/*top story main css*/
+.mainCardContainer {
+    width: 100% !important;
+    background-color: #33333300 !important;
+    display: inline-flex !important;
+    transition: transform 0.2s ease-in-out !important;
+    margin-top: -10px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.mainCardContainer:hover .mainHeader {
+   color: rgb(203, 203, 203) !important;
+}
+
+
+.mainHeader {
+    color: white  !important;
+    font-family: 'Oswald', serif !important;
+    font-size: 30px !important;
+    font-weight: 700;
+}
+
+.mainMeta {
+    margin-top: 0px !important;
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 15px !important;
+    margin-bottom: 15px;
+
+}
+
+.mainShortDesc {
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 19px !important;
+}
+
+/*end of top story main css*/
+
+
+/*start of small  top story  css*/
+.smallCardContainer {
+    background-color: #33333300 !important;
+    transition: transform 0.2s ease-in-out !important;
+    border-color: none !;
+    width: 45% !important;
+    padding: 0px !important;
+    margin-top: -10px !important;
+    margin-right: 15px !important;
+    padding-bottom: 0xp !important;
+    margin-bottom: 0px !important;
+      margin-top: -10px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.smallCardContainer:hover .smallHeader{
+    color: rgb(203, 203, 203) !important;
+}
+
+.smallHeader {
+    color: white !important;
+    font-family: 'Oswald', serif !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+
+.smallMeta {
+    margin-top: 0px !important;
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 13px !important;
+    margin-bottom: 10px;
+
+}
+
+.smallShortDesc {
+    color: #d3d3d3 !important;
+    font-family: "Roboto", system-ui !important;
+    font-size: 15px !important;
+}
+
+.linkContainer {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+
+.mainTextContentContainer {
+    padding: 10px;
+}
+.smallTextContentContainer{
+    padding: 10px;
+}
+/*end of small  top story  css*/
+
+.divider{
+    background-color: #F12847;
+    height: 2px;
+    border: none;
+ 
+}
+
