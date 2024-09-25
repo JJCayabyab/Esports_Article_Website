@@ -2,4 +2,5 @@
 
 # An Esports Article Website using React
 
-![nexplay](https://github.com/user-attachments/assets/30eed924-b343-4a39-bd68-c02ba0e0e2fc)
+![nexplay](https://github.com/user-attachments/assets/d2cd9625-a832-413d-b93b-1687a1c82612)
+
